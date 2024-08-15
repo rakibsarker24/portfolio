@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.me-auto {
+    margin: 0 auto !important;
+}
+
+
+#slider .mycontent {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+#slider .myimage{
+    margin-top: 55px;
+}
+
+#slider .social{
+    margin-top: 128px;
+    margin-bottom: 100px;
+}
+#about{
+    margin-bottom:70px;
+}
+.title h3 {
+    color: #4a4a4a;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    position: relative;
+}
+.title h3::after {
+    top:100%;
+    left:50%;
+    position:absolute;
+    content:'';
+    width: 80px;
+    height: 3px;
+    transform: translatex(-50%);
+    background-color: #198754;
+}
+#about .list ul{
+    padding: 0;
+}
+#about .list ul li{
+    list-style: none;
+}
+#about .title h3::after {
+    top:100%;
+    left:50%;
+    position:absolute;
+    content:'';
+    width: 80px;
+    height: 3px;
+    transform: translatex(-50%);
+    background-color: #198754;
+}
+
+#service{
+    margin-bottom: 70px;
+}
+#service .card .icon{
+    font-size: 40px;
+}
+#service .card h5{
+    color: #4a4a4a;
+}
+#service .card:hover .card{
+    background-color: #198754;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#service .card:hover .card h5{
+    color: #ffffff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#service .card:hover span{
+    color: #ffffff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#contact{
+    margin-bottom: 70px;
+}
+#contact .item p{
+    font-size: 30px;
+    margin: 0;
+}
+#contact .text_icon{
+    margin: 80px 0;
+}
